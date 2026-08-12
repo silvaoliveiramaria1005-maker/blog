@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animais de estimação</title>
+    <link rel="stylesheet" href="style.css">
+
+</header>
+
+<body>
+    <header>
+        <h1>Os animais ajudam a saúde mental dos humanos?</h1>
+        <p>texto</p>
+    </header>
+    <main>
+        <img src="animais.png" alt="Uma fotografia em plano médio e ângulo lateral, capturando um momento afetuoso no chão de uma sala de estar bem iluminada. Uma mulher adulta está sentada de pernas cruzadas no tapete, interagindo carinhosamente com um gato de pelagem listrada e um cachorro Golden Retriever. O clima é de tranquilidade, carinho e intimidade.">
+     
+        <div>
+        <h2>Meu primeiro post!</h2>
+        <p class="autor">Por: Maria Gabriela</p>
+        <p>Meu primeiro post sobre os bixinhos de estimação!</p>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Por: Maria Gabriela</p>
+    </footer>
+</body>
+<button>❤️<span>0</span></button>
+</html>
+
+<script>
+const botao = document.querySelector("button");
+botao.addEventListener("click", botaoClicado);
+function botaoClicado() {
+let texto = botao.querySelector("span");
+texto.textContent++;
+}
+</script>
+
